@@ -7,7 +7,7 @@ bcrypt = Bcrypt()
 
 password = 'supersecretpassword'
 
-bcrypt.generate_password_hash(pasword)
+hashed_password = bcrypt.generate_password_hash(pasword)
 
 
 
